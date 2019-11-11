@@ -72,6 +72,11 @@ blockquote {
 
   html {
     line-height: 1.4;
+    font-size: 1.1rem;
+  }
+
+  article {
+    margin: 0 auto;
   }
 
   article header {
@@ -98,12 +103,45 @@ blockquote {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
 
+  article {
+    margin: 0 auto;
+  }
+
+  article header {
+    margin-bottom: 1.5rem;
+  }
+
+  article header p {
+    padding-bottom: 1.5rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.5rem;
+  }
+
+  article p {
+    margin: 0 0 1.5rem;
+  }
+
+  blockquote {
+    margin: 0 auto 1.5rem;
+  }
 
 }
 
 @media only screen and (min-width: 90em) {
 
+  html {
+    font-size: 1.3rem;
+  }
 
+  article {
+    margin: 0 auto;
+  }
 
 }
