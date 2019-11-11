@@ -68,11 +68,31 @@ blockquote {
   color: #999;
 }
 
-/* remove the top margins from things & add bottom margins equal to the line-height.  */
+@media only screen and (min-width: 38em) {
 
-/* @media only screen and (min-width: 38em) {
+  html {
+    line-height: 1.4;
+  }
 
+  article header {
+    margin-bottom: 1.4rem;
+  }
 
+  article header p {
+    padding-bottom: 1.4rem;
+  }
+
+  article > p:last-child {
+    padding-bottom: 1.4rem;
+  }
+
+  article p {
+    margin: 0 0 1.4rem;
+  }
+
+  blockquote {
+    margin: 0 auto 1.4rem;
+  }
 
 }
 
@@ -86,4 +106,4 @@ blockquote {
 
 
 
-} */
+}
