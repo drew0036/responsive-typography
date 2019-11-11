@@ -19,6 +19,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 article {
   max-width: 43em;
   padding: 0 1rem;
@@ -31,22 +35,33 @@ article h1 {
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
 }
 
 article header p {
   font-style: italic;
-  margin-top: 0;
+  margin: 0;
+  padding-bottom: 1.3rem;
+}
+
+article ol {
+  padding: 0 1rem;
 }
 
 article > p:last-child {
+  padding-bottom: 1.3rem;
   border-bottom: 1px solid #999;
 }
 
+article p {
+  margin: 0 0 1.3rem;
+}
+
 blockquote {
-  display: block;
   color: #555;
   font-size: 1.125rem;
-  max-width: 43em;
+  max-width: 24em;
+  margin: 0 auto 1.3rem;
 }
 
 .quote {
